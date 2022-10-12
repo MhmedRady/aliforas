@@ -1,0 +1,61 @@
+.hidden{
+    display: none;
+}
+table.sorted{
+    th:not(.no-sort){
+        position: relative;
+        cursor: pointer;
+        padding-right: 23px;
+    }
+    th:not(.no-sort):before,th:not(.no-sort):after{
+        position: absolute;
+        bottom: 0.9em;
+        display: block;
+        opacity: 0.3;
+    }
+    th:not(.no-sort):before{
+        right: 1em;
+        content: "\2191";
+        top: 3px;
+    }
+    th:not(.no-sort):after{
+        right: 0.5em;
+        content: "\2193";
+        top: 3px;
+    }
+
+    th:not(.no-sort).descending:after,th:not(.no-sort).ascending:before{
+        opacity: 1;
+    }
+}
+
+
+
+/*style for loading in table*/
+tbody .circle {
+    width: 5px;
+    height: 5px;
+    margin: 0 0.25rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+tbody .circle:nth-child(1) {
+    animation: blink 700ms ease 300ms alternate infinite;
+}
+
+tbody .circle:nth-child(2) {
+    animation: blink 700ms ease 600ms alternate infinite;
+}
+
+tbody .circle:nth-child(3) {
+    animation: blink 700ms ease 900ms alternate infinite;
+}
+
+@keyframes blink {
+    to {
+        background-color: #222;
+    }
+}
+/*end style loading*/

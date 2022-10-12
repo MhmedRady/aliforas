@@ -1,0 +1,2 @@
+php artisan migrate:refresh --path=database/migrations/elgomhouria
+php artisan migrate --path=database/migrations/elgomhouria

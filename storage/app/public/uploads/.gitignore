@@ -1,0 +1,9 @@
+*
+!brands/
+!categories/
+!manufacturers/
+!modules/
+!products/
+!slider/
+!users/
+!.gitignore

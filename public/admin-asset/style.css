@@ -1,0 +1,140 @@
+
+.ast{
+    font-size: 1.3rem;
+    color: #f00;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.lang-change
+{
+    max-width: max-content;
+    padding: 10px;
+    background-color: #0066d2;
+}
+.lang-change a{
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+}
+.lang-change a.active{
+    color: #fff9;
+}
+.login-btn {
+    font-weight: bold !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 1rem;
+}
+
+.invalid-feedback
+{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bs-stepper-title{
+    font-size: 1.2rem !important;
+}
+.bs-stepper-subtitle,
+.text-muted{
+    font-size: 1rem !important;
+}
+label{
+    font-size: 1rem !important;
+    font-weight: bold;
+}
+.toast{
+    font-size: 1rem;
+    position: fixed;
+    right: 10px;
+    font-weight: bold;
+    top: 10px;
+    z-index: 10000 !important;
+}
+.toast .toast-header{
+    color: #fff;
+}
+.toast.bg-success .toast-header{
+    background-color: #0BE36C;
+}
+.toast.bg-danger .toast-header{
+    background-color: #f76c6d;
+}
+.dropdown-user .dropdown-menu{
+    width: 14rem !important;
+}
+
+.clearfix.mb-0{
+    display: none !important;
+}
+
+.valid-feedback{
+    color: red;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.select2-container--classic .select2-selection--multiple .select2-selection__choice, .select2-container--default .select2-selection--multiple .select2-selection__choice{
+    font-weight: bold;
+}
+
+.main-menu-content{
+    overflow: hidden auto;
+}
+
+.main-menu-navigation{
+    min-height: 100%;
+    overflow: hidden auto;
+}
+.ps__rail-x,
+.ps__rail-y{
+    display: none !important;
+}
+
+table.table-bordered.dataTable {
+    text-align: center;
+}
+
+.branch-products input{
+    display: none;
+}
+
+.attr-group-value input{
+    display: none;
+}
+
+input.form-control-sm{
+    min-width: 50px;
+}
+
+.dataTables_wrapper{
+    min-width: 50px;
+    overflow: auto hidden;
+}
+
+.compose-email {
+    bottom: 100px;
+}
+
+.compose-email svg{
+    width: 30px;
+    height: 30px;
+}
+
+.msg-delete {
+    border: none;
+    background-color: transparent;
+}
+
+.msg-delete svg {
+    height: 20px;
+    width: 20px;
+    color: #f95353;
+}
+/*******/ /* ADMIN TABLES */ /********/
+
+/*#ajaxTable .verify input{*/
+/*    display: none;*/
+/*}*/

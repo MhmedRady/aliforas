@@ -1,0 +1,49 @@
+body {
+    text-align: right;
+}
+
+input {
+    text-align: right;
+}
+
+.footer,
+.page-wrapper {
+    margin-right: 220px !important;
+    margin-left: auto;
+}
+
+
+/* @media screen and (max-width: 780px) {
+    .footer,
+    .page-wrapper {
+        margin-right: auto !important;
+    }
+    .navbar-brand span {
+        display: block !important;
+    }
+} */
+
+.sidebar-nav .has-arrow::after {
+    left: 20px;
+    right: auto;
+}
+
+.skin-blue-dark .page-titles .breadcrumb .breadcrumb-item.active {
+    font-weight: bold;
+}
+
+.page-titles .breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+    transform: rotateZ(180deg);
+    padding-left: .5rem;
+    margin-top: 3px;
+}
+
+.custom-file,
+.role {
+    direction: rtl;
+}
+
+.navsModel .modal-dialog .modal-content .modal-body .toast .toast-header strong {
+    margin-left: auto;
+    margin-right: 0;
+}
